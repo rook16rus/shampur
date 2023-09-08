@@ -345,7 +345,22 @@ a:focus {
   }
 }
 
+.title-h1-bold {
+  font: var(--title-h1-bold);
+  text-transform: uppercase;
+}
+
+.title-h3 {
+  font: var(--title-h3);
+  text-transform: uppercase;
+}
+
 .text-t3 {
   font: var(--text-t3);
+  text-transform: uppercase;
+}
+
+.text-t5-bold {
+  font: var(--text-t5-bold);
   text-transform: uppercase;
 }

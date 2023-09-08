@@ -1,0 +1,27 @@
+section.intro
+  .container
+    .intro__wrapper
+      .intro__content
+        .intro__content-top
+          .intro__logo
+            +imgLazy("logo.png")
+            .intro__logo-content
+              span.intro__logo-name Шампур
+              span.intro__logo-city Казань
+          .intro__delivery
+            span.intro__delivery-time Работаем 10:00—22:30
+            span.intro__delivery-desc Доставка и оплата
+        h1.intro__title
+          | Доставка
+          .intro__title-img
+            +imgLazy("title-img-1.jpg")
+          | шаурмы и
+          .intro__title-img
+            +imgLazy("title-img-2.jpg")
+          | шашлыка
+          br
+          | В казани
+      .intro__video-block
+        video.intro__video(preload="none" muted loop playsinline autoplay)
+          source(src=`assets/include/intro.webm` type="video/webm")
+          source(src=`assets/include/intro.mp4` type="video/mp4")
