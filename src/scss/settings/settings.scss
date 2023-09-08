@@ -38,7 +38,8 @@ html {
 body {
   font: var(--text-t2);
   font-variant-numeric: lining-nums;
-  color: var(--text-color);
+  letter-spacing: -0.01em;
+  color: var(--color-900);
 }
 
 ul,
@@ -342,4 +343,9 @@ a:focus {
   & > *:last-child {
     margin-bottom: 0;
   }
+}
+
+.text-t3 {
+  font: var(--text-t3);
+  text-transform: uppercase;
 }

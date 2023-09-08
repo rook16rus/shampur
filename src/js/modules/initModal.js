@@ -9,5 +9,5 @@ export default () => {
     },
   });
 
-  window.project_API.modal = modal;
+  window.shampur_API.modal = modal;
 };

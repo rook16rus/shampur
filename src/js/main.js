@@ -19,9 +19,12 @@ import alignHeights from "./modules/alignHeights";
 import inputPlaceholder from "./helpers/inputPlaceholder";
 import customSelects from "./helpers/customSelects";
 import accordions from "./helpers/accordions";
+import infinitySlider from "./helpers/infinitySlider";
 
 documenReady(() => {
-  window.project_API = { };
+  window.shampur_API = {
+    swipers: []
+  };
 
   lazyIMages();
   initModal();
@@ -38,6 +41,7 @@ documenReady(() => {
   inputPlaceholder();
   customSelects();
   accordions();
+  infinitySlider();
 });
 
 document.fonts.ready.then((res) => {

@@ -1,0 +1,26 @@
+.features {
+  padding: 2rem 0;
+
+  &__slider {
+    overflow: visible;
+  }
+
+  .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+
+  &__slide {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    width: auto;
+    gap: 32px;
+
+    @extend .text-t3;
+
+    svg {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
+}

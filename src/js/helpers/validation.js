@@ -182,15 +182,15 @@ export default function validation() {
         if ($(form).parsley().isValid()) {
           axios.post(url, formData)
             .then((response) => {
-              window.project_API.modal.close();
-              window.project_API.modal.onOpen("success");
+              window.shampur_API.modal.close();
+              window.shampur_API.modal.onOpen("success");
 
               $(form).trigger("reset");
             })
             .catch((error) => {
               console.log(error.message);
-              window.project_API.modal.close();
-              window.project_API.modal.onOpen("error");
+              window.shampur_API.modal.close();
+              window.shampur_API.modal.onOpen("error");
             });
         }
       });

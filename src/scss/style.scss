@@ -2,43 +2,49 @@
 /* stylelint-disable no-invalid-position-at-import-rule */
 :root {
   /* Colors */
-
+  --color-900: #000000;
+  --color-890: rgba(0, 0, 0, 0.1);
+  --color-880: rgba(0, 0, 0, 0.2);
+  --color-870: rgba(0, 0, 0, 0.3);
+  --color-850: rgba(0, 0, 0, 0.5);
+  --color-800: #4D4D4D;
+  --color-700: #F3F3F3;
+  --color-600: #CEEC15;
+  --color-500: #FF6939;
+  --color-100: #FFFFFF;
 
   /* Layout containers */
-  --max-container-width: 148rem;
-  --max-narrow-container-width: 110rem;
+  --max-container-width: 155.2rem;
   --content-padding: 5rem;
 
   /* Font Family */
-  --main-ff: 'Mont', sans-serif;
+  --main-ff: 'Roboto Flex', sans-serif;
+  --secondary-ff: 'Golos', sans-serif;
 
   /* Font Weight */
-  --semi-bold: 600;
+  --black: 900;
+  --extra-bold: 800;
+  --bold: 700;
   --regular: 400;
-  --light: 300;
 
   /* Text */
-  --text-t1: var(--regular) 2rem/140% var(--main-ff);
-  --text-t2: var(--semi-bold) 1.8rem/115% var(--main-ff);
-  --text-t3: var(--regular) 1.8rem/140% var(--main-ff);
-  --text-t4: var(--regular) 1.6rem/140% var(--main-ff);
-  --text-t5: var(--semi-bold) 1.4rem/115% var(--main-ff);
-  --text-t6: var(--regular) 1.4rem/125% var(--main-ff);
+  --text-t1-bold: var(--extra-bold) 1.8rem/120% var(--main-ff);
+  --text-t1: var(--regular) 1.8rem/100% var(--secondary-ff);
+  --text-t2-bold: var(--extra-bold) 1.4rem/120% var(--main-ff);
+  --text-t2: var(--regular) 1.4rem/100% var(--secondary-ff);
+  --text-t2-130: var(--regular) 1.4rem/130% var(--secondary-ff);
+  --text-t3: var(--bold) 1.3rem/120% var(--main-ff);
+  --text-t4: var(--regular) 1.2rem/130% var(--secondary-ff);
+  --text-t5-bold: var(--bold) 1.1rem/120% var(--main-ff);
+  --text-t5: var(--regular) 1.1rem/100% var(--secondary-ff);
 
   /* Titles */
-  --title-h0: var(--regular) 13rem/90% var(--main-ff);
-  --title-h1: var(--regular) 8.8rem/100% var(--main-ff);
-  --title-h2: var(--regular) 7rem/120% var(--main-ff);
-  --title-h3: var(--semi-bold) 5.5rem/125% var(--main-ff);
-  --title-h4: var(--regular) 4rem/125% var(--main-ff);
-  --title-h5: var(--semi-bold) 3.2rem/115% var(--main-ff);
-  --title-h6: var(--semi-bold) 2.4rem/115% var(--main-ff);
-
-  /* Other Typography */
-  --other-1: var(--light) 3rem/80% var(--main-ff);
-  --other-2: var(--regular) 1.4rem/120% var(--main-ff);
-  --other-3: var(--semi-bold) 1.2rem/125% var(--main-ff);
-  --other-4: var(--regular) 0.9rem/115% var(--main-ff);
+  --title-h1-bold: var(--black) 6rem/120% var(--main-ff);
+  --title-h1-semi: var(--extra-bold) 6rem/120% var(--main-ff);
+  --title-h2: var(--extra-bold) 3.2rem/110% var(--main-ff);
+  --title-h3: var(--extra-bold) 2.2rem/120% var(--main-ff);
+  --title-h4: var(--extra-bold) 1.6rem/120% var(--main-ff);
+  --title-h5: var(--extra-bold) 1.4rem/120% var(--main-ff)
 }
 
 @include mq('custom', 'max', 1024) {
@@ -46,21 +52,10 @@
     /* Layout containers */
     --content-padding: 3rem;
 
-    /* Text */
-    --text-t1: var(--regular) 1.8rem/140% var(--main-ff);
-    --text-t3: var(--regular) 1.6rem/140% var(--main-ff);
-
     /* Titles */
-    --title-h0: var(--regular) 8.5rem/90% var(--main-ff);
-    --title-h1: var(--regular) 5.5rem/100% var(--main-ff);
-    --title-h2: var(--regular) 4.2rem/120% var(--main-ff);
-    --title-h3: var(--semi-bold) 3.8rem/125% var(--main-ff);
-    --title-h4: var(--regular) 4.2rem/125% var(--main-ff);
-    --title-h5: var(--semi-bold) 2.6rem/115% var(--main-ff);
-    --title-h6: var(--semi-bold) 1.8rem/115% var(--main-ff);
-
-    /* Other Typography */
-    --other-1: var(--light) 2.3rem/80% var(--main-ff);
+    --title-h1-bold: var(--black) 4.6rem/120% var(--main-ff);
+    --title-h1-semi: var(--extra-bold) 4.6rem/120% var(--main-ff);
+    --title-h2: var(--black) 2.8rem/120% var(--main-ff);
   }
 }
 
@@ -70,29 +65,21 @@
     --content-padding: 2rem;
 
     /* Text */
-    --text-t1: var(--regular) 1.4rem/140% var(--main-ff);
-    --text-t2: var(--semi-bold) 1.6rem/125% var(--main-ff);
-    --text-t3: var(--regular) 1.4rem/125% var(--main-ff);
-    --text-t4: var(--regular) 1.2rem/140% var(--main-ff);
-    --text-t5: var(--semi-bold) 1.2rem/115% var(--main-ff);
-    --text-t6: var(--regular) 1.2rem/125% var(--main-ff);
+    --text-t1: var(--regular) 1.4rem/100% var(--secondary-ff);
+    --text-t2-bold: var(--extra-bold) 1.3rem/120% var(--main-ff);
+    --text-t2: var(--bold) 1.3rem/120% var(--main-ff);
+    --text-t3: var(--regular) 1.2rem/120% var(--secondary-ff);
+    --text-t5: var(--regular) 1rem/100% var(--secondary-ff);
 
     /* Titles */
-    --title-h0: var(--regular) 4.6rem/90% var(--main-ff);
-    --title-h1: var(--regular) 3rem/100% var(--main-ff);
-    --title-h2: var(--regular) 2.6rem/120% var(--main-ff);
-    --title-h3: var(--semi-bold) 2.4rem/125% var(--main-ff);
-    --title-h4: var(--regular) 2.6rem/125% var(--main-ff);
-    --title-h5: var(--semi-bold) 1.8rem/115% var(--main-ff);
-    --title-h6: var(--semi-bold) 1.4rem/115% var(--main-ff);
-
-    /* Other Typography */
-    --other-1: var(--light) 1.6rem/80% var(--main-ff);
-    --other-2: var(--regular) 1.2rem/120% var(--main-ff);
+    --title-h1-bold: var(--black) 3.2rem/120% var(--main-ff);
+    --title-h1-semi: var(--extra-bold) 3.2rem/120% var(--main-ff);
+    --title-h2: var(--black) 2.4rem/120% var(--main-ff);
+    --title-h3: var(--bold) 2rem/120% var(--main-ff);
   }
 }
 
-$minWidth: 360;
+$minWidth: 375;
 $maxWidth: 1680; // Ширина макета
 $base-transition-time: 0.3s;
 $base-transition-easing: ease;

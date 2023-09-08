@@ -1,0 +1,28 @@
+-
+  const features = [
+    {
+      icon: "features-icon-1",
+      text: "Готовим на углях"
+    },
+    {
+      icon: "features-icon-2",
+      text: "Бесплатная доставка от 1000 ₽"
+    },
+    {
+      icon: "features-icon-3",
+      text: "120+ продуктов"
+    },
+    {
+      icon: "features-icon-4",
+      text: "Быстрая доставка по Казани"
+    },
+  ]
+
+article.features
+  .container
+    .features__slider.swiper.js-infinity-slider()
+      .swiper-wrapper
+        for item in features
+          .features__slide.swiper-slide
+            +icon-multi(item.icon)
+            span= item.text
