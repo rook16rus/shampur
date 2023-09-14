@@ -1,0 +1,7 @@
+mixin catalog-block(title, data, id)
+  .catalog-block(id=id)&attributes(attributes)
+    h3.catalog-block__title= title
+    ul.catalog-block__list
+      for item in data
+        li.catalog-block__item
+          +catalog-card(item.img, item.title, item.desc, item.price)

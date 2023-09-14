@@ -1,0 +1,15 @@
+mixin catalog-card(img, title, desc, price)
+  article.catalog-card&attributes(attributes)
+    .catalog-card__img
+      +pictureLazy(img, "Фото")
+    .catalog-card__content
+      h4.catalog-card__title= title
+
+      if desc
+        p.catalog-card__desc= desc
+
+      .catalog-card__bottom
+        span.catalog-card__price
+        button.catalog-card__button.button.button--medium.button--orange-bordered
+          | Выбрать
+
