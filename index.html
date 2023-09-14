@@ -50,7 +50,7 @@
             </div>
           </div>
         </article>
-        <section class="intro">
+        <section class="intro page-section">
           <div class="container">
             <div class="intro__wrapper">
               <div class="intro__content">
@@ -76,9 +76,1429 @@
                 </video>
               </div>
             </div>
+            <div class="intro__categories swiper">
+              <div class="swiper-wrapper">
+                <a class="intro__categories-slide swiper-slide button button--medium button--white" href="#">Шаурма</a>
+                <a class="intro__categories-slide swiper-slide button button--medium button--white" href="#">Шашлык</a>
+                <a class="intro__categories-slide swiper-slide button button--medium button--white" href="#">Комбо</a>
+                <a class="intro__categories-slide swiper-slide button button--medium button--white" href="#">Пицца</a>
+                <a class="intro__categories-slide swiper-slide button button--medium button--white" href="#">Салаты</a>
+                <a class="intro__categories-slide swiper-slide button button--medium button--white" href="#">Гарниры</a>
+                <a class="intro__categories-slide swiper-slide button button--medium button--white" href="#">Напитки</a>
+                <a class="intro__categories-slide swiper-slide button button--medium button--white" href="#">Соусы</a>
+                <a class="intro__categories-slide swiper-slide button button--medium button--white" href="#">на пикник</a>
+                <button class="intro__basket button button--medium button--orange">
+                  <svg class="icon icon-basket-icon">
+                    <use xlink:href="assets/images/sprites/sprite-multi.svg#basket-icon"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="map page-section">
+          <div class="container">
+            <div class="map__inner">
+              <div class="map__block" id="map"></div>
+              <div class="map__info js-accordion js-accordion-tablet">
+                <h2 class="map__title js-accordion-btn">Проверьте ваш адрес на&nbsp;возможность получения заказа</h2>
+                <form class="map__search js-accordion-content">
+                  <div class="input-wrapper">
+                    <svg class="icon icon-search-icon">
+                      <use xlink:href="assets/images/sprites/sprite-multi.svg#search-icon"></use>
+                    </svg>
+                    <input class="map__search-input input input--bordered" type="text" name="mapSearch" placeholder="Например, ул. Пушкина, д. 17">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="actions page-section">
+          <div class="container">
+            <div class="actions__slider swiper">
+              <div class="swiper-wrapper">
+                <li class="actions__item swiper-slide">
+                  <div class="actions__item-content">
+                    <h3 class="actions__item-title">Скидка за сторис</h3>
+                    <p class="actions__item-desc">Отмечайте нас в сторис и получайте скидку 5%</p>
+                  </div>
+                  <div class="actions__item-img">
+                    <picture>
+                      <source type="image/webp" data-srcset="assets/images/actions-1.webp" alt="Фото" srcset="#">
+                      <img class="lazyload" data-src="assets/images/actions-1.png" src="#" alt="Фото">
+                    </picture>
+                  </div>
+                </li>
+                <li class="actions__item swiper-slide">
+                  <div class="actions__item-content">
+                    <h3 class="actions__item-title">Блюдо дня!</h3>
+                    <p class="actions__item-desc">Комбо фирменный с шашлыком из&nbsp;свинины</p>
+                  </div>
+                  <div class="actions__item-img">
+                    <picture>
+                      <source type="image/webp" data-srcset="assets/images/actions-2.webp" alt="Фото" srcset="#">
+                      <img class="lazyload" data-src="assets/images/actions-2.png" src="#" alt="Фото">
+                    </picture>
+                  </div>
+                </li>
+                <li class="actions__item swiper-slide">
+                  <div class="actions__item-content">
+                    <h3 class="actions__item-title">Доставка и оплата</h3>
+                    <p class="actions__item-desc">При заказе от 1000 ₽</p>
+                  </div>
+                  <div class="actions__item-img">
+                    <picture>
+                      <source type="image/webp" data-srcset="assets/images/actions-3.webp" alt="Фото" srcset="#">
+                      <img class="lazyload" data-src="assets/images/actions-3.png" src="#" alt="Фото">
+                    </picture>
+                  </div>
+                </li>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="catalog">
+          <div class="container">
+            <div class="catalog-block page-section" id="catalogList0">
+              <h3 class="catalog-block__title">Шаурма</h3>
+              <ul class="catalog-block__list">
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">Классическая</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">199 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ГРЕЧЕСКАЯ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, помидоры, болгарский перец, красный лук, сыр фета, маслины, соус ранч, соус песто</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ФИРМЕННАя</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты черри, обжаренный бекон, красный лук, соус гриль, соус фирменый</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ОХОТНИЧЬЯ</h4>
+                      <p class="catalog-card__desc">Шампиньоны, кабачки, болгарский перец, охотничьи колбаски, свежий помидор, лист салата айсберг, красный лук, соус горчичный, соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">329 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">MAX</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">309 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-2.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-2.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">С КРЕВЕТКАМИ НА ГРИЛЕ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты чери, сыр пармезан, красный лук, соус цезарь, креветки на гриле</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">449 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ КУРИЦЫ</h4>
+                      <p class="catalog-card__desc">Филе бедра без кожи, капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">189 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ ИНДЕЙКИ</h4>
+                      <p class="catalog-card__desc">Филе грудки без кожи , капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">209 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-block page-section" id="catalogList1">
+              <h3 class="catalog-block__title">Шашлык</h3>
+              <ul class="catalog-block__list">
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">Классическая</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">199 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ГРЕЧЕСКАЯ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, помидоры, болгарский перец, красный лук, сыр фета, маслины, соус ранч, соус песто</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ФИРМЕННАя</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты черри, обжаренный бекон, красный лук, соус гриль, соус фирменый</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ОХОТНИЧЬЯ</h4>
+                      <p class="catalog-card__desc">Шампиньоны, кабачки, болгарский перец, охотничьи колбаски, свежий помидор, лист салата айсберг, красный лук, соус горчичный, соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">329 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">MAX</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">309 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-2.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-2.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">С КРЕВЕТКАМИ НА ГРИЛЕ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты чери, сыр пармезан, красный лук, соус цезарь, креветки на гриле</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">449 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ КУРИЦЫ</h4>
+                      <p class="catalog-card__desc">Филе бедра без кожи, капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">189 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ ИНДЕЙКИ</h4>
+                      <p class="catalog-card__desc">Филе грудки без кожи , капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">209 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-block page-section" id="catalogList2">
+              <h3 class="catalog-block__title">Комбо</h3>
+              <ul class="catalog-block__list">
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">Классическая</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">199 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ГРЕЧЕСКАЯ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, помидоры, болгарский перец, красный лук, сыр фета, маслины, соус ранч, соус песто</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ФИРМЕННАя</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты черри, обжаренный бекон, красный лук, соус гриль, соус фирменый</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ОХОТНИЧЬЯ</h4>
+                      <p class="catalog-card__desc">Шампиньоны, кабачки, болгарский перец, охотничьи колбаски, свежий помидор, лист салата айсберг, красный лук, соус горчичный, соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">329 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">MAX</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">309 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-2.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-2.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">С КРЕВЕТКАМИ НА ГРИЛЕ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты чери, сыр пармезан, красный лук, соус цезарь, креветки на гриле</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">449 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ КУРИЦЫ</h4>
+                      <p class="catalog-card__desc">Филе бедра без кожи, капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">189 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ ИНДЕЙКИ</h4>
+                      <p class="catalog-card__desc">Филе грудки без кожи , капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">209 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-block page-section" id="catalogList3">
+              <h3 class="catalog-block__title">Пицца</h3>
+              <ul class="catalog-block__list">
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">Классическая</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">199 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ГРЕЧЕСКАЯ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, помидоры, болгарский перец, красный лук, сыр фета, маслины, соус ранч, соус песто</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ФИРМЕННАя</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты черри, обжаренный бекон, красный лук, соус гриль, соус фирменый</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ОХОТНИЧЬЯ</h4>
+                      <p class="catalog-card__desc">Шампиньоны, кабачки, болгарский перец, охотничьи колбаски, свежий помидор, лист салата айсберг, красный лук, соус горчичный, соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">329 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">MAX</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">309 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-2.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-2.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">С КРЕВЕТКАМИ НА ГРИЛЕ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты чери, сыр пармезан, красный лук, соус цезарь, креветки на гриле</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">449 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ КУРИЦЫ</h4>
+                      <p class="catalog-card__desc">Филе бедра без кожи, капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">189 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ ИНДЕЙКИ</h4>
+                      <p class="catalog-card__desc">Филе грудки без кожи , капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">209 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-block page-section" id="catalogList4">
+              <h3 class="catalog-block__title">Салаты</h3>
+              <ul class="catalog-block__list">
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">Классическая</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">199 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ГРЕЧЕСКАЯ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, помидоры, болгарский перец, красный лук, сыр фета, маслины, соус ранч, соус песто</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ФИРМЕННАя</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты черри, обжаренный бекон, красный лук, соус гриль, соус фирменый</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ОХОТНИЧЬЯ</h4>
+                      <p class="catalog-card__desc">Шампиньоны, кабачки, болгарский перец, охотничьи колбаски, свежий помидор, лист салата айсберг, красный лук, соус горчичный, соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">329 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">MAX</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">309 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-2.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-2.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">С КРЕВЕТКАМИ НА ГРИЛЕ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты чери, сыр пармезан, красный лук, соус цезарь, креветки на гриле</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">449 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ КУРИЦЫ</h4>
+                      <p class="catalog-card__desc">Филе бедра без кожи, капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">189 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ ИНДЕЙКИ</h4>
+                      <p class="catalog-card__desc">Филе грудки без кожи , капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">209 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-block page-section" id="catalogList5">
+              <h3 class="catalog-block__title">Гарниры</h3>
+              <ul class="catalog-block__list">
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">Классическая</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">199 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ГРЕЧЕСКАЯ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, помидоры, болгарский перец, красный лук, сыр фета, маслины, соус ранч, соус песто</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ФИРМЕННАя</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты черри, обжаренный бекон, красный лук, соус гриль, соус фирменый</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ОХОТНИЧЬЯ</h4>
+                      <p class="catalog-card__desc">Шампиньоны, кабачки, болгарский перец, охотничьи колбаски, свежий помидор, лист салата айсберг, красный лук, соус горчичный, соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">329 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">MAX</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">309 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-2.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-2.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">С КРЕВЕТКАМИ НА ГРИЛЕ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты чери, сыр пармезан, красный лук, соус цезарь, креветки на гриле</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">449 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ КУРИЦЫ</h4>
+                      <p class="catalog-card__desc">Филе бедра без кожи, капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">189 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ ИНДЕЙКИ</h4>
+                      <p class="catalog-card__desc">Филе грудки без кожи , капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">209 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-block page-section" id="catalogList6">
+              <h3 class="catalog-block__title">Напитки</h3>
+              <ul class="catalog-block__list">
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">Классическая</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">199 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ГРЕЧЕСКАЯ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, помидоры, болгарский перец, красный лук, сыр фета, маслины, соус ранч, соус песто</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ФИРМЕННАя</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты черри, обжаренный бекон, красный лук, соус гриль, соус фирменый</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ОХОТНИЧЬЯ</h4>
+                      <p class="catalog-card__desc">Шампиньоны, кабачки, болгарский перец, охотничьи колбаски, свежий помидор, лист салата айсберг, красный лук, соус горчичный, соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">329 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">MAX</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">309 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-2.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-2.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">С КРЕВЕТКАМИ НА ГРИЛЕ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты чери, сыр пармезан, красный лук, соус цезарь, креветки на гриле</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">449 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ КУРИЦЫ</h4>
+                      <p class="catalog-card__desc">Филе бедра без кожи, капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">189 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ ИНДЕЙКИ</h4>
+                      <p class="catalog-card__desc">Филе грудки без кожи , капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">209 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-block page-section" id="catalogList7">
+              <h3 class="catalog-block__title">соусы</h3>
+              <ul class="catalog-block__list">
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">Классическая</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">199 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ГРЕЧЕСКАЯ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, помидоры, болгарский перец, красный лук, сыр фета, маслины, соус ранч, соус песто</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ФИРМЕННАя</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты черри, обжаренный бекон, красный лук, соус гриль, соус фирменый</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ОХОТНИЧЬЯ</h4>
+                      <p class="catalog-card__desc">Шампиньоны, кабачки, болгарский перец, охотничьи колбаски, свежий помидор, лист салата айсберг, красный лук, соус горчичный, соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">329 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">MAX</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">309 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-2.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-2.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">С КРЕВЕТКАМИ НА ГРИЛЕ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты чери, сыр пармезан, красный лук, соус цезарь, креветки на гриле</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">449 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ КУРИЦЫ</h4>
+                      <p class="catalog-card__desc">Филе бедра без кожи, капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">189 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ ИНДЕЙКИ</h4>
+                      <p class="catalog-card__desc">Филе грудки без кожи , капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">209 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-block page-section" id="catalogList8">
+              <h3 class="catalog-block__title">На пикник</h3>
+              <ul class="catalog-block__list">
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">Классическая</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">199 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ГРЕЧЕСКАЯ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, помидоры, болгарский перец, красный лук, сыр фета, маслины, соус ранч, соус песто</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ФИРМЕННАя</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты черри, обжаренный бекон, красный лук, соус гриль, соус фирменый</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">289 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ОХОТНИЧЬЯ</h4>
+                      <p class="catalog-card__desc">Шампиньоны, кабачки, болгарский перец, охотничьи колбаски, свежий помидор, лист салата айсберг, красный лук, соус горчичный, соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">329 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-1.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-1.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">MAX</h4>
+                      <p class="catalog-card__desc">Капустный салат, огурцы, помидоры, лук,соус фирменный</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">309 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-2.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-2.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">С КРЕВЕТКАМИ НА ГРИЛЕ</h4>
+                      <p class="catalog-card__desc">Лист салата айсберг, огурцы, томаты чери, сыр пармезан, красный лук, соус цезарь, креветки на гриле</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">449 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ КУРИЦЫ</h4>
+                      <p class="catalog-card__desc">Филе бедра без кожи, капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">189 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog-block__item">
+                  <article class="catalog-card">
+                    <div class="catalog-card__img">
+                      <picture>
+                        <source type="image/webp" data-srcset="assets/images/catalog-3.webp" alt="Фото" srcset="#">
+                        <img class="lazyload" data-src="assets/images/catalog-3.jpg" src="#" alt="Фото">
+                      </picture>
+                    </div>
+                    <div class="catalog-card__content">
+                      <h4 class="catalog-card__title">ШАШЛЫК ИЗ ИНДЕЙКИ</h4>
+                      <p class="catalog-card__desc">Филе грудки без кожи , капустный салат, маринованный лук, лепешка</p>
+                      <div class="catalog-card__bottom"><span class="catalog-card__price">209 ₽</span>
+                        <button class="catalog-card__button button button--medium button--orange-bordered">Выбрать</button>
+                      </div>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
       </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__top">
+              <div class="footer__info">
+                <a class="footer__logo" href="/">
+                  <svg class="icon icon-logo">
+                    <use xlink:href="assets/images/sprites/sprite-multi.svg#logo"></use>
+                  </svg>
+                </a>
+                <div class="footer__info-content">
+                  <a class="footer__phone" href="tel:89274554854">8 (927) 455-48-54</a>
+                  <div class="footer__info-bottom"><span>Доставка и оплата</span>
+                    <a href="mailto:shampurio@shampur.ru">shampurio@shampur.ru</a>
+                  </div>
+                </div>
+              </div>
+              <address class="footer__address">
+                <svg class="icon icon-address-icon">
+                  <use xlink:href="assets/images/sprites/sprite-multi.svg#address-icon"></use>
+                </svg>
+                <ul class="footer__streets">
+                  <li class="footer__street">ул. Кул Гали, 8</li>
+                  <li class="footer__street">ул. Горсоветская 10</li>
+                  <li class="footer__street">ул. Академика Арбузова, 5 к1</li>
+                </ul>
+              </address>
+            </div>
+            <div class="footer__bottom"><span class="footer__confidence">© 2023 Официальный сайт компании «Шампур». Все права защищены</span>
+              <div class="footer__developer"><span>Создание сайта</span>
+                <svg class="icon icon-developer">
+                  <use xlink:href="assets/images/sprites/sprite-multi.svg#developer"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <article class="features">
+          <div class="container">
+            <div class="features__slider swiper js-infinity-slider">
+              <div class="swiper-wrapper">
+                <div class="features__slide swiper-slide">
+                  <svg class="icon icon-features-icon-1">
+                    <use xlink:href="assets/images/sprites/sprite-multi.svg#features-icon-1"></use>
+                  </svg><span>Готовим на углях</span>
+                </div>
+                <div class="features__slide swiper-slide">
+                  <svg class="icon icon-features-icon-2">
+                    <use xlink:href="assets/images/sprites/sprite-multi.svg#features-icon-2"></use>
+                  </svg><span>Бесплатная доставка от 1000 ₽</span>
+                </div>
+                <div class="features__slide swiper-slide">
+                  <svg class="icon icon-features-icon-3">
+                    <use xlink:href="assets/images/sprites/sprite-multi.svg#features-icon-3"></use>
+                  </svg><span>120+ продуктов</span>
+                </div>
+                <div class="features__slide swiper-slide">
+                  <svg class="icon icon-features-icon-4">
+                    <use xlink:href="assets/images/sprites/sprite-multi.svg#features-icon-4"></use>
+                  </svg><span>Быстрая доставка по Казани</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </footer>
     </div>
     <div class="modal">
       <div class="modal__container modal-demo" data-target="demo">
