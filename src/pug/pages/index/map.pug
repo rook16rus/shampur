@@ -1,13 +1,13 @@
-section.map
+section.map.page-section
   .container
     .map__inner
       .map__block#map
 
       .map__info.js-accordion.js-accordion-tablet
         h2.map__title.js-accordion-btn
-          | Проверьте ваш адрес на возможность получения заказа
+          | Проверьте ваш адрес на&nbsp;возможность получения заказа
         form.map__search.js-accordion-content
           .input-wrapper
             +icon-multi("search-icon")
-            input.map__search-input.input.input--bordered(type="text" name="mapSearch")
+            input.map__search-input.input.input--bordered(type="text" name="mapSearch" placeholder="Например, ул. Пушкина, д. 17")
 
