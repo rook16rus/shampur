@@ -1,0 +1,27 @@
+footer.footer
+  .container
+    .footer__inner
+      .footer__top
+        .footer__info
+          a.footer__logo(href="/")
+            +icon-multi("logo")
+          .footer__info-content
+            a.footer__phone(href="tel:89274554854")
+              | 8 (927) 455-48-54
+            .footer__info-bottom
+              span Доставка и оплата
+              a(href="mailto:shampurio@shampur.ru") shampurio@shampur.ru
+        address.footer__address
+          +icon-multi("address-icon")
+          ul.footer__streets
+            li.footer__street ул. Кул Гали, 8
+            li.footer__street ул. Горсоветская 10
+            li.footer__street ул. Академика Арбузова, 5 к1
+      .footer__bottom
+        span.footer__confidence
+          | © 2023 Официальный сайт компании «Шампур». Все права защищены
+        .footer__developer
+          span Создание сайта
+          +icon-multi("developer")
+  include ../parts/features
+
