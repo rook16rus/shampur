@@ -1,3 +1,43 @@
+-
+  const categories = [
+    {
+      link: "#",
+      text: "Шаурма"
+    },
+    {
+      link: "#",
+      text: "Шашлык"
+    },
+    {
+      link: "#",
+      text: "Комбо"
+    },
+    {
+      link: "#",
+      text: "Пицца"
+    },
+    {
+      link: "#",
+      text: "Салаты"
+    },
+    {
+      link: "#",
+      text: "Гарниры"
+    },
+    {
+      link: "#",
+      text: "Напитки"
+    },
+    {
+      link: "#",
+      text: "Соусы"
+    },
+    {
+      link: "#",
+      text: "на пикник"
+    },
+  ]
+
 section.intro
   .container
     .intro__wrapper
@@ -25,3 +65,8 @@ section.intro
         video.intro__video(preload="none" muted loop playsinline autoplay)
           source(src=`assets/include/intro.webm` type="video/webm")
           source(src=`assets/include/intro.mp4` type="video/mp4")
+    .intro__categories.swiper
+      .swiper-wrapper
+        for item in categories
+          a.intro__categories-slide.swiper-slide.button.button--medium.button--white(href=item.link)= item.text
+        button.intro__basket.button.button--medium.button--orange
