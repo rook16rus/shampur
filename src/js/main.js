@@ -20,6 +20,7 @@ import inputPlaceholder from "./helpers/inputPlaceholder";
 import customSelects from "./helpers/customSelects";
 import accordions from "./helpers/accordions";
 import infinitySlider from "./helpers/infinitySlider";
+import actionsSlider from "./helpers/actionsSlider";
 
 documenReady(() => {
   window.shampur_API = {
@@ -42,6 +43,7 @@ documenReady(() => {
   customSelects();
   accordions();
   infinitySlider();
+  actionsSlider();
 });
 
 document.fonts.ready.then((res) => {

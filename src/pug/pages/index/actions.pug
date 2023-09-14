@@ -8,7 +8,7 @@
     {
       img: "actions-2.png",
       title: "Блюдо дня!",
-      desc: "Комбо фирменный с шашлыком из свинины"
+      desc: "Комбо фирменный с шашлыком из&nbsp;свинины"
     },
     {
       img: "actions-3.png",
@@ -17,7 +17,7 @@
     },
   ]
 
-section.actions
+section.actions.page-section
   .container
     .actions__slider.swiper
       .swiper-wrapper
@@ -25,6 +25,6 @@ section.actions
           li.actions__item.swiper-slide
             .actions__item-content
               h3.actions__item-title= item.title
-              p.actions__item-desc= item.desc
+              p.actions__item-desc!= item.desc
             .actions__item-img
               +pictureLazy(item.img, "Фото")

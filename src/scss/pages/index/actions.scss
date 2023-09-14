@@ -1,3 +1,60 @@
 .actions {
+  &__slider {
 
+  }
+
+  .swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  &__item {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 2rem;
+    min-height: 18rem;
+
+    border-radius: 1.6rem;
+    background: var(--color-700) url("../images/action-card-bg.svg") no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  &__item-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item-title {
+    margin-bottom: 2rem;
+
+    font: var(--text-t1-bold);
+    text-transform: uppercase;
+  }
+
+  &__item-desc {
+    max-width: 29rem;
+    margin-top: auto;
+
+    opacity: 0.5;
+
+    font: var(--text-t2);
+  }
+
+  &__item-img {
+    width: 16rem;
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+
+      width: 24.2rem;
+      height: 18rem;
+      object-fit: contain;
+    }
+  }
 }
