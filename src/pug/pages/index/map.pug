@@ -1,0 +1,13 @@
+section.map
+  .container
+    .map__inner
+      .map__block#map
+
+      .map__info
+        h2.map__title
+          | Проверьте ваш адрес на возможность получения заказа
+        form.map__search
+          .input-wrapper
+            +icon-multi("search-icon")
+            input.map__search-input.input.input--bordered(type="text" name="mapSearch")
+
