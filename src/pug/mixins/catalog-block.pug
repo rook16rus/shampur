@@ -1,5 +1,5 @@
 mixin catalog-block(title, data, id)
-  .catalog-block(id=id)&attributes(attributes)
+  .catalog-block.page-section(id=id)&attributes(attributes)
     h3.catalog-block__title= title
     ul.catalog-block__list
       for item in data
