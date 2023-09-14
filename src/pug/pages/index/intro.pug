@@ -38,7 +38,7 @@
     },
   ]
 
-section.intro
+section.intro.page-section
   .container
     .intro__wrapper
       .intro__content
@@ -70,3 +70,4 @@ section.intro
         for item in categories
           a.intro__categories-slide.swiper-slide.button.button--medium.button--white(href=item.link)= item.text
         button.intro__basket.button.button--medium.button--orange
+          +icon-multi("basket-icon")
