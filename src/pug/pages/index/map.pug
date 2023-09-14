@@ -3,10 +3,10 @@ section.map
     .map__inner
       .map__block#map
 
-      .map__info
-        h2.map__title
+      .map__info.js-accordion.js-accordion-tablet
+        h2.map__title.js-accordion-btn
           | Проверьте ваш адрес на возможность получения заказа
-        form.map__search
+        form.map__search.js-accordion-content
           .input-wrapper
             +icon-multi("search-icon")
             input.map__search-input.input.input--bordered(type="text" name="mapSearch")
