@@ -2,6 +2,11 @@
   padding: 2rem 0;
   background-color: #fff;
 
+  @include mq('custom', 'max', 640) {
+    padding: 0.8rem 0;
+  }
+
+
   &__slider {
     overflow: visible;
   }
@@ -19,9 +24,20 @@
 
     @extend .text-t3;
 
+    @include mq('custom', 'max', 640) {
+      gap: 16px;
+
+      font-size: 0.8rem;
+    }
+
     svg {
       width: 2.4rem;
       height: 2.4rem;
+
+      @include mq('custom', 'max', 640) {
+        width: 1.6rem;
+        height: 1.6rem;
+      }
     }
   }
 }

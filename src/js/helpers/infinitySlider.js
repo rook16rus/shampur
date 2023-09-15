@@ -13,7 +13,7 @@ export default function infinitySlider() {
       loopAdditionalSlides: 10,
       loopSlides: 20,
       loopedSlidesLimit: false,
-      spaceBetween: slider.dataset.space ? Number(slider.dataset.space) : 32,
+      spaceBetween: 16,
       nested: true,
       freeMode: true,
       allowTouchMove: false,
@@ -25,6 +25,11 @@ export default function infinitySlider() {
         delay: 1,
         disableOnInteraction: false
       },
+      breakpoints: {
+        769: {
+          spaceBetween: slider.dataset.space ? Number(slider.dataset.space) : 32,
+        }
+      }
     })
 
     window.shampur_API.swipers.push(swiper);
